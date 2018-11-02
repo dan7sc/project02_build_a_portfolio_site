@@ -11,3 +11,8 @@ img {
 	height: auto;
 	width: auto;
 }
+
+.text-img-featured {
+	text-align: center;
+	font-size: 32px;
+}
