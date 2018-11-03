@@ -8,6 +8,7 @@ img {
 }
 
 #logo {
+	padding-left: 20px;
 	height: auto;
 	width: auto;
 }
@@ -15,4 +16,17 @@ img {
 .text-img-featured {
 	text-align: center;
 	font-size: 32px;
+}
+
+header {
+	padding-top: 20px;
+}
+
+.title-header {
+	padding-right: 20px;
+}
+
+hr {
+	border: 1px solid gray;
+	margin-bottom: 30px
 }
