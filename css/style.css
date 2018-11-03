@@ -1,5 +1,23 @@
+
+* {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+
 h1 {
-	font-size: 36px;
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: #51453B;
+	line-height: 40px;
+ 	font-weight: 300;
+}
+
+p {
+	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #4B4543;
+	line-height: 40px;
+	font-weight: 400;
 }
 
 img {
