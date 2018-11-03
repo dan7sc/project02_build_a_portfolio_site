@@ -48,3 +48,7 @@ hr {
 	border: 1px solid gray;
 	margin-bottom: 30px
 }
+
+#footer-text {
+	text-align: center;
+}
