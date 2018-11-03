@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet">
+    <!-- Bootstrap version 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Personal css -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
     <header>
       <div class="container">
         <div class="row">
+          <!-- Logo image -->
           <div class="col-2 col-sm-2 col-md-2">
             <img id="logo" src="img/udacity_logo.png" alt="Udacity logo">
           </div>
-          <div class="col-10 col-sm-10 col-md-10 text-right title-header">
+          <!-- Header title -->
+          <div class="col-10 col-sm-10 col-md-10 text-right header-title">
             <h1>JANE DOETTE</h1>
             <p>FRONT-END NINJA</p>
           </div>
@@ -22,37 +29,42 @@
         <hr>
       </div>
     </header>
+
     <main>
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <img src="img/code.png" alt="html code">
-            </div>
+      <!-- Cover image -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-fluid" src="img/code.png" alt="html code">
           </div>
         </div>
-      </section>
+      </div>
+
       <section>
+        <!-- Projects -->
         <div class="container">
-          <p><h2>Featured Work</h2></p>
+          <h2>Featured Work</h2>
           <div class="row">
             <div class="col-sm-12 col-md-4">
               <img class="img-fluid" src="img/appify.png" alt="appify">
-              <p class="text-img-featured">Appify</p>
+              <p class="featured-img-text">Appify</p>
             </div>
             <div class="col-sm-12 col-md-4">
               <img class="img-fluid" src="img/sunflower.png" alt="sunflower">
-              <p class="text-img-featured">Sunflower</p>
+              <p class="featured-img-text">Sunflower</p>
             </div>
             <div class="col-sm-12 col-md-4">
               <img class="img-fluid" src="img/bokeh.png" alt="bokeh">
-              <p class="text-img-featured">Bokeh</p>
+              <p class="featured-img-text">Bokeh</p>
             </div>
           </div>
         </div>
       </section>
+
     </main>
+
     <footer>
+      <!-- Footer -->
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -61,5 +73,6 @@
         </div>
       </div>
     </footer>
+
   </body>
 </html>
