@@ -61,6 +61,11 @@ footer {
     width: auto;
 }
 
+#about-me-text {
+    text-align: justify;
+    text-indent: 3em;
+}
+
 .featured-img-title {
     text-align: center;
     font-size: 32px;
