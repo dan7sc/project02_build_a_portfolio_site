@@ -57,9 +57,17 @@ hr {
     width: auto;
 }
 
-.featured-img-text {
+.featured-img-title {
     text-align: center;
     font-size: 32px;
+}
+
+.featured-img-text {
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
 }
 
 .header-title {
