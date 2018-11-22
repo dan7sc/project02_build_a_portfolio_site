@@ -68,22 +68,9 @@ footer {
   width: 140px;
 }
 
-@media (min-width: 767.98px) {
-  #about-me-title {
-    padding-top: 2em;
-    padding-left: 1.5em;
-  }
-}
-
 #about-me-text {
   text-align: justify;
   text-indent: 3em;
-}
-
-@media (min-width: 767.98px) {
-  #about-me-text {
-    padding: 2em 5em 4em;
-  }
 }
 
 #container-projects-title {
@@ -108,18 +95,36 @@ footer {
   padding-right: 20px;
 }
 
+.main-background {
+  background: #abe3e5;
+}
+
 .alternative-background {
   background: #abd3d5;
 }
 
 @media (min-width: 767.98px) {
+  .container-block {
+    position: sticky;
+    top: -1px;
+    z-index: -1;
+  }
+
+  #about-me-title {
+    padding-top: 2em;
+    padding-left: 1.5em;
+  }
+
+  #about-me-text {
+    padding: 2em 5em 4em;
+  }
+
   .row-projects {
     padding: 4em 5em 4em;
   }
-}
 
-@media (min-width: 767.98px) {
   .row-logo {
     padding: 1em 5em 0em;
   }
 }
+
