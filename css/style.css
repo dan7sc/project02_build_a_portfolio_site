@@ -117,3 +117,9 @@ footer {
     padding: 4em 5em 4em;
   }
 }
+
+@media (min-width: 767.98px) {
+  .row-logo {
+    padding: 1em 5em 0em;
+  }
+}
