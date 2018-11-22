@@ -107,7 +107,7 @@ footer {
 @media (min-width: 767.98px) {
   .container-block {
     position: sticky;
-    top: -1px;
+    top: -150px;
     z-index: -1;
   }
 
@@ -128,9 +128,15 @@ footer {
     padding: 1em 5em 0em;
   }
 
-.project-image:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+  .project-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    }
+
+  .header-block {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
   }
 }
 
