@@ -44,6 +44,7 @@ img {
 
 .project-image {
   padding: 2em 3em 2em;
+  transition: transform 0.2s; 
 }
 
 header {
@@ -125,6 +126,11 @@ footer {
 
   .row-logo {
     padding: 1em 5em 0em;
+  }
+
+.project-image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
   }
 }
 
