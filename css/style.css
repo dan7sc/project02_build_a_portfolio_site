@@ -140,3 +140,10 @@ footer {
   }
 }
 
+@media (min-width: 359.98px) and (max-width: 767.98px) {
+  .header-block {
+    position: sticky;
+    top: -15px;
+    z-index: 1;
+  }
+}
