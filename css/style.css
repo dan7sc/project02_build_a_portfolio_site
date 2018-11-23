@@ -104,6 +104,18 @@ footer {
   background: #abd3d5;
 }
 
+#footer-contact-title {
+  color: #51453b;
+  text-align: center;
+  padding: 0 0 0.5em;
+}
+
+.hr-contact-title {
+  width: 60%;
+  margin-top: -0.6em;
+  border: 1px solid #51453b;
+}
+
 @media (min-width: 767.98px) {
   .container-block {
     position: sticky;
