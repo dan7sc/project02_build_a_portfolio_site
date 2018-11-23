@@ -44,7 +44,11 @@ img {
 
 .project-image {
   padding: 2em 3em 2em;
-  transition: transform 0.2s; 
+  transition: transform 0.2s;
+}
+
+.project-image-shadow {
+  box-shadow: 2px 2px 8px 1px #51453b;
 }
 
 header {
