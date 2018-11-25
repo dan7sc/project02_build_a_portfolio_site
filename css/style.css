@@ -79,11 +79,6 @@ footer {
   text-indent: 3em;
 }
 
-#container-projects-title {
-  padding-top: 1em;
-  padding-left: 1.5em;
-}
-
 .featured-img-title {
   text-align: center;
   font-size: 32px;
@@ -157,18 +152,8 @@ ul {
     z-index: -1;
   }
 
-  #about-me-title {
-    padding-top: 2em;
-    padding-left: 1.5em;
-  }
-
   #about-me-text {
     padding: 2em 5em 2em;
-  }
-
-  #skill-title {
-    padding-top: 2em;
-    padding-left: 1.5em;
   }
 
   .row-projects {
@@ -177,6 +162,11 @@ ul {
 
   .row-logo {
     padding: 1em 5em 0em;
+  }
+
+  .section-title {
+    padding-top: 2em;
+    padding-left: 1.5em;
   }
 
   .project-image:hover {
