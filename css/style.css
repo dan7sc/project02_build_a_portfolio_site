@@ -25,12 +25,31 @@ h2 {
   padding-top: 10px;
 }
 
+h5 {
+  font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #51453b;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+h6 {
+  font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #51453b;
+  line-height: 40px;
+  font-weight: 400;
+}
+
 p {
   font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+  text-align: justify;
   font-size: 18px;
+  text-indent: 3em;
   color: #4b4543;
   line-height: 40px;
   font-weight: 400;
+  padding-top: 1em;
 }
 
 img {
@@ -74,22 +93,9 @@ footer {
   width: 140px;
 }
 
-#about-me-text {
-  text-align: justify;
-  text-indent: 3em;
-}
-
 .featured-img-title {
   text-align: center;
   font-size: 32px;
-}
-
-.featured-img-text {
-  text-align: justify;
-  font-size: 18px;
-  text-indent: 3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 .header-title {
@@ -152,8 +158,8 @@ ul {
     z-index: -1;
   }
 
-  #about-me-text {
-    padding: 2em 5em 2em;
+  p {
+    padding: 1em 3em 1em;
   }
 
   .row-projects {
