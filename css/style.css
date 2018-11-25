@@ -105,8 +105,12 @@ footer {
   background: #abe3e5;
 }
 
-.alternative-background {
+.alternative-background-1 {
   background: #abd3d5;
+}
+
+.alternative-background-2 {
+  background: #abc3d5;
 }
 
 #footer-contact-title {
@@ -119,6 +123,31 @@ footer {
   width: 60%;
   margin-top: -0.6em;
   border: 1px solid #51453b;
+}
+
+.skill-text {
+  font-size: 24px;
+  color: #abe3e5;
+}
+
+#skill-content {
+  padding: 2em 5em 2em;
+}
+
+.skill-position {
+  background: #51453b;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  line-height: 140px;
+}
+
+.container-fluid {
+  padding-bottom: 2em;
+}
+
+ul {
+  list-style-type: none;
 }
 
 @media (min-width: 767.98px) {
@@ -134,7 +163,12 @@ footer {
   }
 
   #about-me-text {
-    padding: 2em 5em 4em;
+    padding: 2em 5em 2em;
+  }
+
+  #skill-title {
+    padding-top: 2em;
+    padding-left: 1.5em;
   }
 
   .row-projects {
