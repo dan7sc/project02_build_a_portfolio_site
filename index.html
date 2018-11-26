@@ -6,8 +6,11 @@
     <title>My Portfolio</title>
     <!-- Google fonts -->
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet">
+    <!-- JQuery 3 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <!-- Bootstrap version 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- Personal css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Font awesome -->
@@ -16,6 +19,7 @@
   <body>
 
     <header class="header-block main-background">
+
       <div class="container-fluid">
         <div class="row row-logo">
           <!-- Logo image -->
@@ -29,7 +33,32 @@
           </div>
         </div>
         <hr>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured-work">Featured Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
       </div>
+
     </header>
 
     <main>
@@ -42,7 +71,7 @@
         </div>
       </div>
 
-      <section>
+      <section id="about-me">
         <!-- About me -->
         <div class="container-fluid alternative-background-1">
           <h2 class="section-title">About me</h2>
@@ -54,7 +83,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="skills">
         <!-- Skills -->
         <div class="container-fluid container-fluid-skill alternative-background-2">
           <h2 class="section-title">Skills</h2>
@@ -87,7 +116,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="featured-work">
         <!-- Projects -->
         <div class="container-fluid main-background">
           <h2 class="section-title">Featured Work</h2>
@@ -135,7 +164,7 @@
 
     </main>
 
-    <footer class="alternative-background-1">
+    <footer id="contact" class="alternative-background-1">
       <!-- Footer -->
       <div class="container-fluid">
         <h3 id="footer-contact-title">Contact</h3>
