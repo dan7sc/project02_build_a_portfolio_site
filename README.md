@@ -11,7 +11,8 @@ For this project, we will be building a portfolio website. We will develop a res
   * [JQuery](https://jquery.com/)
   * [Google Fonts](https://fonts.google.com/)
   * [Font Awesome](https://fontawesome.com/)
-  [* All prerequisites work via CDN]
+  <br>
+  (All prerequisites work via CDN)
 
 #### Project Contents
 
@@ -23,5 +24,5 @@ This project consists for the following files:
 
 #### Setup Project
 
-  1. Download, in the same folder ,the files show in Project Contents
+  1. Download, in the same folder, the files show in Project Contents
   2. Open index.html file in a web browser of your choice
