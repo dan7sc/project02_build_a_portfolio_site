@@ -27,7 +27,7 @@ h2 {
 
 h5 {
   font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #51453b;
   line-height: 40px;
   font-weight: 300;
@@ -72,7 +72,7 @@ img {
 
 header {
   padding-top: 5px;
-  padding-bottom: -20px;
+  padding-bottom: 0px;
 }
 
 hr {
@@ -105,10 +105,6 @@ footer {
 .featured-img-title {
   text-align: center;
   font-size: 32px;
-}
-
-.header-title {
-  padding-right: 20px;
 }
 
 .main-background {
@@ -162,7 +158,13 @@ ul {
 }
 
 .navbar {
-  padding-top: -5rem;
+  padding-top: 0.3em;
+}
+
+.header-block {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 @media (min-width: 767.98px) {
@@ -194,27 +196,13 @@ ul {
     cursor: pointer;
     }
 
-  .header-block {
-    position: sticky;
-    top: -1px;
-    z-index: 1;
-  }
-
   .nav-item {
     padding-left: 20px;
   }
 }
 
-@media (min-width: 359.98px) and (max-width: 767.98px) {
-  .header-block {
-    position: sticky;
-    top: -5px;
-    z-index: 1;
-  }
-}
-
-@media (max-width: 459.98px) {
+@media (max-width: 575.98px) {
   .footer-col-content {
-    padding: 1em 0 1em 5em;
+    padding: 0 4em 2em;
   }
 }
